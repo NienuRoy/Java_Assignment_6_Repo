@@ -38,9 +38,8 @@ public class Mreview extends java.lang.Object implements Comparable<Mreview>{
 		}
 
 		try{
-
 			return (double)sum/numRatings();
-
+			
 		}catch(ArithmeticException e){
 
 			System.out.println("Divide by zero error");

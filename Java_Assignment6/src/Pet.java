@@ -51,7 +51,6 @@ public class Pet {
 
 		return (getPetName() +" owned by " +getOwnerName() +"\n" +"Colour: " +getColor() 
 		+"\n" +"Sex: "+getSex());
-
 	}
 	
 	public static void main(String[] args){
@@ -59,7 +58,6 @@ public class Pet {
 		Pet pet = new Pet("Spot", "Mary", "Black and White");
 		pet.setSex(1);
 		System.out.println(pet);
-	}
-	
+	}	
 }
 
